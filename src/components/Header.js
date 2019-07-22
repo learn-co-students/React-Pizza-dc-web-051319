@@ -9,7 +9,5 @@ class Header extends Component {
       </Fragment>
     );
   }
-
 }
-
 export default Header;
