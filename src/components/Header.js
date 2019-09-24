@@ -1,15 +1,5 @@
-import React, { Component, Fragment } from 'react';
+import React from 'react';
 
-class Header extends Component {
-
-  render() {
-    return (
-      <Fragment>
-        <h1 className="text-center">Welcome to Flatiron School's Pizzeria</h1>
-      </Fragment>
-    );
-  }
-
-}
+const Header = ({ title }) => <h1 className="text-center">{title}</h1>
 
 export default Header;
